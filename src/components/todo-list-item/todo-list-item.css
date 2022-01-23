@@ -1,0 +1,46 @@
+.list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #fd5c63;
+  margin-bottom: 15px;
+  box-shadow: 5px 4px 15px rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.list-item-info {
+  width: 90%;
+}
+
+.btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btns button {
+  background: transparent;
+  border: transparent;
+}
+
+.btns button .fas {
+  font-size: 20px;
+}
+
+.fa-check {
+  color: green;
+}
+
+.fa-edit {
+  color: #318CE7;
+}
+
+.fa-trash-alt {
+  color: #BA0021;
+}
+
+.list-item.done {
+  background-color: #4fffb0;
+}

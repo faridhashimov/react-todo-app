@@ -1,0 +1,25 @@
+.search-form {
+  background-color: #96ceb4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  color: #2d4263;
+  border-radius: 5px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+}
+
+.search-panel {
+  margin-bottom: 10px;
+  width: 450px;
+}
+
+@media (max-width: 1200px) {
+  .search-form {
+    flex-direction: column;
+  }
+  .search-filter {
+    margin-bottom: 20px;
+  }
+}
