@@ -15,10 +15,10 @@ class App extends Component {
         super(props);
         this.state = {
             todo: [
-                {text: 'Почитать книгу Хоббит пустошь смауга', done: false, id: 1},
-                {text: 'Сходить взять посылку', done: false, id: 2},
-                {text: 'Посмотреть в озоне компьютерые столы', done: true, id: 3},
-                {text: 'Сходить купить шапку', done: false, id: 4},
+                {text: 'Поискать новую книгу для вечернего чтива', done: false, id: 1},
+                {text: 'Сходить забрать посылку', done: false, id: 2},
+                {text: 'Позвонить другу', done: true, id: 3},
+                {text: 'Сходить купить прродукты', done: false, id: 4},
             ],
             term: '',
             filter: ''
@@ -59,7 +59,7 @@ class App extends Component {
         if (term.length === 0) {
             return data;
         }
-        
+
         return data.filter(item => {
             return item.text.indexOf(term) > -1 });
     }
